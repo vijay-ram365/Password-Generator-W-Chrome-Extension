@@ -1,0 +1,70 @@
+* {
+  box-sizing: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 700px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 2em;
+  background: #101820ff;
+  color: #9cc3d5ff;
+  border: 5px solid #9cc3d5ff;
+  border-radius: 5px;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.sub-title {
+  margin-bottom: 2.5em;
+  letter-spacing: 0.1em;
+}
+
+span {
+  display: block;
+  color: #fff;
+}
+
+.pass-btn {
+  padding: 1em 1.5em;
+  border: none;
+  margin-top: 1em;
+  font-size: 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #0063b2ff;
+}
+
+.pass-btn:hover {
+  background-color: #9cc3d5ff;
+}
+
+input {
+  border: none;
+  padding: 0.2em;
+  font-size: 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.password-view {
+  margin-top: 0.8em;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 2px solid #9cc3d5ff;
+}
+
+.password-view > p {
+  padding: 1em;
+  margin: 0.5em;
+  background-color: #9cc3d5ff;
+  color: #0063b2ff;
+  font-weight: bold;
+  border-radius: 5px;
+}
